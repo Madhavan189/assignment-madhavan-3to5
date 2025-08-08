@@ -2,66 +2,369 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>my html learnings</title>
+    <style>
+      table, th, td{
+        border-collapse: collapse;
+      }
+      .my-table{
+        border-collapse: collapse;
+      }
+
+      .rotate{
+         transform: rotate(-90deg);
+         white-space: nowrap;
+      }
+    </style>
+   
+    
 </head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>user for registration</h1>
+<body style="background-color: aqua;">
+  <h1>
+    semantic elements
+  </h1>
+  <nav>
+    <ul>
+        <li>ducati</li>
+        <li>ninja</li>
+        <li>bmw</li>
+    </ul>
+    <ol>
+        <li>yamaha</li>
+        <li>ktm</li>
+    </ol>
+
+    <ol>
+      <li>Fruits
+        <ul>
+          <li>ducati</li>
+          <li>ferrai</li>
+          <li>benz</li>
+        </ul>
+      </li>
+      <li>games
+        <ul>
+          <li>coc</li>
+          <li>pubg</li>
+        </ul>
+      </li>
+    </ol>
+
+    <dl>
+        <dt>what car yor like</dt>
+        <dd>i like bmw</dd>
+         <dt>what bike yor like</dt>
+        <dd>i like yamaha R15 v4</dd>
+        
+    </dl>
+  </nav>
+  <hr>
+  <img src="./IMG_1117[1].jpg" alt="my image" height="340" width="260">
+  <h1></h1>
+  <h2>what bro</h2>
+  <h3>ok done</h3>
+  <h4>nothing bro</h4>
+  <h5>what is that</h5>
+  <h6>all done</h6>
+  <hr><hr>
+  <p><b> Lorem, ipsum dolor sit</b> <strong>Lorem ipsum dolor sit amet.</strong> 
+    <i>Lorem, ipsum dolor.</i>. 
+    <em>Lorem ipsum dolor sit.</em><br>
+     <mark>Lorem, ipsum dolor.</mark> 
+     <small>Lorem ipsum dolor sit.</small> 
+     <del>Lorem ipsum dolor sit amet consectetur adipisicing.</del>
+     <ins>Lorem, ipsum dolor.</ins></p>
+     log<sub>32</sub>
+     x<sup>2</sup>
+     <q>Lorem, ipsum.</q>
+
+     <hr><hr>
+     <a href="https://www.mercedes-benz.co.in/">mercedes-benz/a><br>
+       <h1>Madhavan S</h1>
+    <img src="WhatsApp Image 2025-08-04 at 16.23.44_9a6e9d11.jpg"width=420" height="320">
+    <ul>instagram:mxdhavxn_._ <button>click</button></ul>
+    <h2><u>education:</u></h2>
+    <p>  Bsc Computer Science
+   St. Thomas College of Arts and science, Chennai(2022
+2025)
+ <ul>Higher Secondary
+ PCKG Goverment Higher Secondary School
+ Director’s Colony, Kodambakkam, Chennai, Tamil Nadu - 600002 </ul></p>
+ <h3><u>CERTIFICATION</u></h3>
+ <li>Certification Name: Basic Data Science</li>
+ <li> Issued by: Magic Bus Foundation</li>
+ <li>Description:</li>
+ <li> Completed a foundational course covering core concepts of data science, including:</li>
+ <li>Data analysis</li>
+ <li> Data visualization</li>
+ <li> Basic statistical techniques</li>
+ <li>Esteemed reputation in business proposals and application pitches</li>
+ <li> Attained certification in badminton across Division, District, University, and State levels</li>
+ <h4><u>PROJECT</u></h4>
+ <ul><u>Plant ID - Identify plants with Ai</u></ul>
+ <li> Designed and implemented an AI-based plant identification system as part of my final year project. The
+ solution uses machine learning and image recognition techniques to accurately detect and classify plant
+ species from user-submitted images, aiming to support educational and environmental applications.</li>
+<table border="=2px">
+    <tr>
+        <th>skills</th>
+    </tr>
+    <tr>
+        <td>customer service</td>
+    </tr>
+    <tr>
+        <td>time management</td>
+    </tr>
+    <tr>
+        <td>cummunication</td>
+    </tr>
+    <tr>
+        <td>active listening</td>
+    </tr>
+    
+    
+</table>
+     <hr><hr>
+     <a href="madhavanmadhavan189@gmail.com">send mail</a><br>
+     <a href="tel:9025145876">call me</a>
+     <hr><hr>
+
+     <table border="1">
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>madhavan</td>
+        
+        <td>S</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td>yasin</td>
+        
+        <td>sharif</td>
+        <td>20</td>
+      </tr>
+     </table>
+     <hr><hr>
+       <form action="https://formspree.io/f/mdkdpapb" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+
+      <button type="submit">Submit</button>
+       </form><hr><hr>
+       <form action="https://formspree.io/f/mdkdpapb" method="post">
+        <label for="text"><strong>choose ur favorite vehicles</strong></label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle" value="Bike">
+        <label for="vehicle1">yamaha</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="car">
+        <label for="vehicle2">bmw</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="flight">
+        <label for="vehicle3">audi</label><br>
+        <button type="submit">submit</button><br>
+
+        <label for="text"><strong>Enter ur gender</strong></label><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+
+
+
+
+
+         <input type="file"><br>
+         <input type="date">
+
+       </form><hr><hr>
+
       
 
-    <form action="">
-        <label for="frist name">first name</label>
-        <input type="name" name="name" id="">
+        <label for="moive name">moive name:</label>
+  <select id="genre" name="genre">
+    <optgroup label="Action/Adventure">
+      <option value="marvel">Marvel</option>
+      <option value="dc">DC</option>
+      <option value="lcu">lokesh kanagaraj</option>
+    </optgroup>
+    <optgroup label="Romantic">
+      <option value="titanic">Titanic</option>
+      <option value="beauty and the beast">beauty and the beast</option>
+    </optgroup>
+    <optgroup label="Horror">
+      <option value="conjuring">The Conjuring</option>
+      <option value="evile death">evile death</option>
+      <option value="ring">rring(not available)</option>
+      
+    </optgroup>
+  </select>
+<hr><hr>
+<table border="2">
+  <tr>
+    <th>period</th>
+    <th rowspan="2">p1</th>
+    <th rowspan="2">p2</th>
+    <th rowspan="2"></th>
+    <th rowspan="2">p3</th>
+    <th rowspan="2">p4</th>
+    <th rowspan="2"></th>
+    <th rowspan="2">p5</th>
+    <th rowspan="2">p6</th>
+    <th rowspan="2"> </th>
+    <th rowspan="2">p7</th>
+    <th rowspan="2">p8</th>
+  </tr>
+  <tr>
+    <th>Day</th>
+
+  </tr>
+  <tr>
+    <th>mon</th>
+    <td>mat</td>
+    <td>sci</td>
+    <td></td>
+    <td>fs</td>
+    <td>soc</td>
+    <td></td>
+    <td>eng</td>
+    <td>tam</td>
+    <td></td>
+    <td>mat</td>
+    <td>sci</td>
+  </tr>
+   <tr>
+    <th>Tue</th>
+    <td>mat</td>
+    <td>sci</td>
+    <td></td>
+    <td>pt</td>
+    <td>soc</td>
+    <td></td>
+    <td>eng</td>
+    <td>tam</td>
+    <td></td>
+    <td>mat</td>
+    <td>sci</td>
+  </tr>
+   <tr>
+    <th>Wed</th>
+    <td>mat</td>
+    <td>sci</td>
+    <td></td>
+    <td>fs</td>
+    <td>soc</td>
+    <td></td>
+    <td>eng</td>
+    <td>tam</td>
+    <td></td>
+    <td>mat</td>
+    <td>sci</td>
+  </tr>
+   <tr>
+    <th>Thu</th>
+    <td>mat</td>
+    <td>sci</td>
+    <td class="rotate">Interval</td>
+    <td>fs</td>
+    <td>soc</td>
+    <td class="rotate">Lunch</td>
+    <td>eng</td>
+    <td>tam</td>
+    <td class="rotate">Interval</td>
+    <td>mat</td>
+    <td>sci</td>
+  </tr>
+   <tr>
+    <th>Fri</th>
+    <td>mat</td>
+    <td>sci</td>
+    <td></td>
+    <td>fs</td>
+    <td>soc</td>
+    <td></td>
+    <td>eng</td>
+    <td>tam</td>
+    <td></td>
+    <td>mat</td>
+    <td>sci</td>
+  </tr>
+</table>
+<hr>
+
+<h1>Video</h1>
+
+    <video controls width="640" height="360">
+        <source src="./Itachi & Kisame X Natpu Ft. #tamilamv #natpu.mp4">
+        <source src="/#" type="video/">
+    </video><br>
+
+    <audio src="./Itachi & Kisame X Natpu Ft. #tamilamv #natpu.mp4" controls></audio>
+    <hr>
+<head>
+  <title>My Location</title>
+  <style>
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>My Location</h2>
+  <p>Here's where I am located:</p>
+
+  <!-- Google Maps Embed -->
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.001412340289!2d77.5946!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670a9247b91%3A0xabc!2sBangalore!5e0!3m2!1sen!2sin!4v1660000000000" 
+"
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+
+     <header>
+    <h1>My Blog</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#">About</a> |
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>First Blog Post</h2>
+      <p>This is an example of a blog post using semantic HTML elements.</p>
+    </article>
+
+    <aside>
+      <h3>Related Links</h3>
+      <ul>
+        <li><a href="#">HTML Guide</a></li>
+        <li><a href="#">CSS Tutorial</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
+  </footer>
 
 
-        <label for="last name">last name</label>
-        <input type="name" name="name" id="">
-
-        <button>submit</button>
-        <br><label for="email">email</label>
-        <input type="email">
-        <label for="phone number">phone number</label>
-        <input type="phone number">
-
-
-        <label for="password">password</label>
-        <input type="password" name="" id="">
-        <button>submit</button>
-
-
-        <br><label for="coruse">coruse</label>
-        <select name="coruse" id="">coruse</select>
-        <label for="gender">select your gender</label>
-        <input type="radio" name="gender" id="male" value="male">
-        <label for="class">class</label>
-        <input type="radio"name=class>
-        <input type="date">
-
-
-
-        <input type="datetime-local">
-
-
-
-        <label for="hobbies">country</label>
-
-        <select name="hobbies" id="hobbies"></select>
-
-        <option value="india">india</option>
-        <option value="usa">usa</option>
-        <option value="canada">canada</option>
-
-    </form>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eAfsRLlpxh4?si=b2kg-fM8EGcYD5WK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe src="" frameborder="0"></iframe>
-</html>
 </body>
 </html>
